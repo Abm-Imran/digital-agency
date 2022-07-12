@@ -1,0 +1,21 @@
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* Banner part design */
+
+.banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 5%;
+}
+.banner-title{
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/* .banner-bottom-img{
+    width: 100%;
+} */
