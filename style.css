@@ -1,3 +1,13 @@
+
+/* Common styles */
+.my-custom-margin{
+    margin-top: 100px;
+}
+.my-custom-padding{
+    padding-top: 100px;
+}
+
+
 .navbar{
     background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
@@ -19,3 +29,48 @@
 /* .banner-bottom-img{
     width: 100%;
 } */
+
+/* clients part design */
+.Clients{
+    border-radius: 10px;
+    width: 500px;
+    background-image: linear-gradient(to right, white, #f1eff2);
+}
+
+/* Social Media Icon Part */
+
+.social-media-container{
+    background-color: #F8F9FA;
+    padding: 100px 0;
+}
+.social-media-icon img{
+    transition: transform 1s ease;
+}
+.social-media-icon img:hover{
+    transform: scale(1.5);
+}
+
+/* Footer part style */
+.footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    /* width: 100%; */
+    /* padding-bottom: 5%; */
+}
+
+.contact-us-icon .fa-solid{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    margin-right: 6px;
+    text-align: center;
+}
+
+.subscribe-btn{
+    border: 1px solid purple;
+    width: 100px;
+    padding: 7px 0;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    border-radius: 10px;
+}

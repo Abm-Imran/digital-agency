@@ -20,7 +20,7 @@
 
     <!-- Navigation Starts -->
     <header id="home">
-        <section>
+        <section class="fixed-top">
             <nav class="navbar navbar-expand-lg">
                 <a href="" class="navbar-brand"><img class="ps-3" src="images/demo-logo.png" alt="" height="40px"></a>
 
@@ -31,11 +31,13 @@
                 <div class="collapse navbar-collapse" id="navbarcontent">
                     <ul class="navbar-nav ms-auto text-end">
                         <li class="nav-item pe-2"><a href="#home" class="nav-link text-light fw-semibold">HOME</a></li>
-                        <li class="nav-item pe-2"><a href="#serv" class="nav-link text-light fw-semibold">SERVICES</a></li>
-                        <li class="nav-item pe-2"><a href="#aboutus" class="nav-link text-light fw-semibold">ABOUT US</a></li>
-                        <li class="nav-item pe-2"><a href="" class="nav-link text-light fw-semibold">TESTIMONIALS</a>
+                        <li class="nav-item pe-2"><a href="#serv" class="nav-link text-light fw-semibold">SERVICES</a>
                         </li>
-                        <li class="nav-item pe-2"><a href="" class="nav-link text-light fw-semibold">CONTACT</a></li>
+                        <li class="nav-item pe-2"><a href="#aboutus" class="nav-link text-light fw-semibold">ABOUT
+                                US</a></li>
+                        <li class="nav-item pe-2"><a href="#testimonials" class="nav-link text-light fw-semibold">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item pe-2"><a href="#contact" class="nav-link text-light fw-semibold">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -55,8 +57,8 @@
                         <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem
                             nihil aperiam accusamus quo laborum doloremque consectetur asperiores
                         </p>
-                        <a href="https://www.youtube.com/" target="_blank" class="text-decoration-none text-light "><img src="images/play.png" class="m-3"
-                                alt="" width="45px">Watch Tutorials</a>
+                        <a href="https://www.youtube.com/" target="_blank" class="text-decoration-none text-light "><img
+                                src="images/play.png" class="m-3" alt="" width="45px">Watch Tutorials</a>
                     </div>
                     <div class="col-lg-6">
                         <img src="images/home2.png" class="img-fluid" alt="">
@@ -74,7 +76,7 @@
 
 
         <!-- Services part start -->
-        <section id="serv" class="container mt-5 text-center">
+        <section id="serv" class="container text-center my-custom-margin my-custom-padding">
 
             <h1 class="text-uppercase">What we do</h1>
             <hr class=" border border-2 border-danger m-auto mt-2" style="width: 80px;">
@@ -115,17 +117,17 @@
                     </div>
                 </div>
             </div>
-            <button class=" border rounded-pill p-1 m-auto bg-primary" style="width: 120px;">All Services</button>
+            <button class=" border rounded-pill p-1 my-5 mx-auto bg-primary" style="width: 120px;">All Services</button>
         </section>
         <!-- Services part ends -->
 
 
 
         <!-- why choose us part start -->
-        <section id="aboutus" class="my-5" style="background-color:aliceblue; padding-top:30px; padding-bottom: 30px;">
+        <section id="aboutus" class="my-custom-margin my-custom-padding" style="background-color:aliceblue; padding-bottom: 30px;">
             <div class="container">
                 <h1 class="text-uppercase text-center">why choose us ?</h1>
-                <hr class="border border-2 border-primary m-auto mb-5" style="width: 170px;">
+                <hr class="border border-2 border-primary m-auto" style="width: 170px;">
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="card border-0" style="background-color:aliceblue;">
@@ -156,7 +158,90 @@
         <!-- why choose us part end -->
 
 
+
+        <!-- Clients part Start -->
+        <section id="testimonials" class="my-custom-margin my-custom-padding">
+            <div class="container">
+                <h1 class="text-uppercase text-center mb-5 mx-auto Clients ">What Clients Says</h1>
+                <div class="row offset-2">
+                    
+                    <div class="col-lg-5 border-start border-3 border-primary">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum possimus dolore nihil
+                            mollitia qui amet exercitationem, quis natus magnam facilis!</p>
+                        <div class="d-flex align-items-center">
+                            <img class="rounded-circle mx-2" src="images/user1.jpg" alt="" width="60px" height="60px">
+                            <span class="d-inline-block" style="font-size: 13px;"><b><i>Anjela Morkel</i></b> <br> Co-Founder at ABC</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 border-start border-3 border-primary">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum      possimus     dolore nihil
+                            mollitia qui amet exercitationem, quis natus magnam facilis!
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img class="rounded-circle mx-2" src="images/user2.jpg" alt="" width="60px" height="60px">
+                            <span class="d-inline-block" style="font-size: 13px;"><b><i>Jack Smith</i></b> <br> Co-Founder at XYZ</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Clients part End -->
+
+
+
+
+        <!-- Social Media Part Start -->
+        <section id="contact" class=" container-fluid social-media-container my-custom-margin">
+            <h1 class="text-uppercase text-center">find us on social media </h1>
+            <div class="text-center social-media-icon">
+                <a href=""><img src="images/facebook-icon.png" alt="" width="50px"></a>
+                <a href=""><img src="images/instagram-icon.png" alt="" width="50px"></a>
+                <a href=""><img src="images/twitter-icon.png" alt="" width="50px"></a>
+                <a href=""><img src="images/whatsapp-icon.png" alt="" width="50px"></a>
+                <a href=""><img src="images/linkedin-icon.png" alt="" width="50px"></a>
+                <a href=""><img src="images/snapchat-icon.png" alt="" width="50px"></a>
+            </div>
+            
+        </section>
+        <!-- Social Media Part End -->
+
+
+
+        <!-- footer part start -->
+        <section class="">
+            <div class="footer">
+                <img src="images/wave2.png" class="img-fluid" alt="">
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="images/demo-logo.png" height="40px" alt="">
+                            <p class="text-light mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci rem tempore sit modi aliquid ipsa nesciunt exercitationem corporis praesentium possimus illo maiores soluta, quam, quibusdam enim aperiam fugiat facilis.</p>
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column justify-content-center contact-us-icon">
+                            <p class="text-light"><b>CONTACT US</b></p>
+                            <p class="text-light"><i class="fa-solid fa-location-dot"></i> world trade center usa</p>
+                            <p class="text-light"><i class="fa-solid fa-phone"></i> 123456789</p>
+                            <p class="text-light"><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="text-light"><b>SUBSCRIBE US</b></p>
+                            <input class="form-control" placeholder="Your Email Here" type="text">
+                            <button class="subscribe-btn mt-3 text-light">Subscribe</button>
         
+                        </div>
+                    </div>
+                </div>
+                <hr class="container text-light mt-5 mb-0">
+                <p class="text-center text-light mb-0 pb-3"><small>All rights reserved to Sadio Mane, Senegal</small></p>
+            </div>
+            
+        </section>
+        <!-- footer part end -->
+
+
+
+
 
     </main>
 
